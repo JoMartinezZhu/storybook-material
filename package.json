@@ -1,5 +1,5 @@
 {
-  "name": "storybook-demo",
+  "name": "storybook-material",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,6 +10,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "storybook": "start-storybook -p 9001 -c .storybook",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -27,5 +28,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@storybook/addon-info": "^5.1.10",
+    "@storybook/react": "^5.1.10"
   }
 }
